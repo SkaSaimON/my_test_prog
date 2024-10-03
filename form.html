@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<form action="" method="post" name="register">
+    <div>
+        <label for="first_name" style="display: block">First name</label>
+        <input id="first_name" name="first_name" style="width: 300px; height: 40px" placeholder="first_name"/>
+    </div>
+    <div>
+        <label for="last_name" style="display: block">Last name</label>
+        <input id="last_name" name="last_name" style="width: 300px; height: 40px" placeholder="last_name"/>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" name="agree" checked>
+            I agree about terms...
+        </label>
+    </div>
+    <div>
+        <h3>Gerder</h3>
+        <label>
+            <input type="radio" name="gerder" value="Man">
+            Man
+        </label>
+        <label>
+            <input type="radio" name="gerder" value="woman">
+            Woman
+        </label>
+        <label>
+            <input type="radio" name="gerder" value="other">
+            Other
+        </label>
+    </div>
+    <div>
+        <input type="file" name="load">
+    </div>
+    <div>
+        <label for="message" style="display: block">Message</label>
+        <textarea name="message" id="message" style="width: 300px; height: 150px; resize: none"></textarea>
+    </div>
+    <div>
+        <label for="city" style="display: block">City</label>
+        <select id="city" name="city">
+            <option>Kiyv</option>
+            <option>Odessa</option>
+            <option selected>Kharkiv</option>
+        </select>
+    </div>
+    <button type="reset">reset</button>
+    <button type="submit">send</button>
+
+</form>
+
+</body>
+</html>
